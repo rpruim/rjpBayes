@@ -11,11 +11,13 @@ Encoding: UTF-8
 LazyData: true
 Depends:
     brms,
+    bayesplot,
     ggformula
 Imports:
     bayesplot
 Suggests: knitr,
-    rmarkdown
+    rmarkdown,
+    testthat
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1.9000
 Roxygen: list(markdown = TRUE)
