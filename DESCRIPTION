@@ -1,0 +1,23 @@
+Package: rjpBayes
+Type: Package
+Title: Utilities for Working with Bayesian Models
+Version: 0.1.0
+Author: Randall Pruim
+Maintainer: Randall Pruim <rpruim@gmail.com>
+Description: A collection of utilities for creating, diagnosing, and 
+    visulaizing Bayesian models.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends:
+    brms,
+    ggformula
+Imports:
+    bayesplot
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1.9000
+Roxygen: list(markdown = TRUE)
+URL: https://github.com/rpruim/rjpBayes
+BugReports: https://github.com/rpruim/rjpBayes/issues
